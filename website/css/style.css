@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    /*background: url(../image/aaron-burden-UIib0bAvWfs-unsplash.jpg) no-repeat;*/
+    background-color: lightblue;
+    background-size: cover;
+    height: 100vh;
+   
+}
+.wrappers{
+    background: url(../image/rana-sawalha-W_-6PWGbYaU-unsplash.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;}
+.wrapperabout{
+    background: black no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.wrappercontact{
+    background: url(../image/damian-zaleski-RYyr-k3Ysqg-unsplash.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;}
+.wrapperfeedback{
+     /*background: url(../image/yoal-desurmont-jqgsM3B9Fpo-unsplash.jpg) no-repeat;*/
+     background: white;
+     background-size: cover;
+    height: 100vh;}
+    
+.navi{
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.img{
+    width: 250px;
+    height: auto;
+    
+}
+.navi ul{
+    float: right;
+    margin: 20px;
+    margin-bottom: 0;
+
+}
+.navi ul li{
+ list-style: none;
+ margin: 0px 10px;
+ display: inline-block;
+ line-height: 50px;
+}
+.navi ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    transition: 0.5s;
+    padding: 6px 15px;
+}
+.navi ul li a.active{
+    background: rgba(240, 65, 91, 0.817);
+    border-radius: 5px;
+}
+.navi ul li a:hover{
+    background: rgb(240, 65, 91, 0.817);
+    border-radius: 5px;
+}
+/*.wrapper .center{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    user-select: none;
+    border: 5px solid rgb(0, 0, 0);
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 78px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+*/
+
+.wrapper .center {
+    
+    padding-left: 500px;
+    padding-top: 100px;
+    
+
+   
+}
+.wrapper .center2{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    user-select: none;
+    border: 5px solid rgb(0, 0, 0);
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 78px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.center h1{
+    color: rgb(1, 1, 1);
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    font-family: 'Rubik Marker Hatch', cursive;
+    
+}
+    
+.center2 h2{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    text-align: center;
+    
+    
+ 
+}
+.center2 .buttons{
+    align-content: center;
+    margin: 50px 250px;
+    text-decoration: none;
+
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    border:4px solid rgb(255, 255, 255) ;
+    outline:none ;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+   
+}
+.buttons .btnn{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    background: rgb(69, 67, 67);
+    
+}
+.wrappers h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.line{
+    width: 150px;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    margin: 0 875px;
+}
+
+.social i{
+    font-size: 30px;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.aboutcontent{
+    width: 1400px;
+    max-width: 95%;
+    margin: 100px 250px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.about-text{
+    width: 550px;
+}
+.about-text h1{
+    color: aliceblue;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    
+}
+.about-text h5{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    
+}
+span{
+    color: #ff0000;
+}
+.containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 30px;
+    padding: 40px;
+    background-color: aqua;
+    width: 40%;
+    margin: auto;
+}
+
+.containers .myinfo{
+  margin: 0 50px;
+  padding: 20px 40px;
+  border: 1px solid white
+}
+.containers .myinfo p{
+padding-top: 0;
+text-align: left;
+}
+.containers .contact-service{
+
+    width: auto;
+    height: auto;
+    background: rgb(255, 255, 255) ;
+
+    padding: 0 15px;
+ 
+
+
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.containers .contact-service h3{
+    text-align: center;
+    margin: 5px 0;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+
+}
+.containers .contact-service p{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.single-service{
+    position: relative;
+    width: 350px;
+    height: 320px;
+    background: rgb(255, 255, 255) ;
+    box-sizing: border-box;
+    padding: 0 15px;
+    transition: .5s;
+    overflow: hidden;
+    float: left;
+    margin: 0 140px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.feedbacks .single-service {
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 800px;
+}
+
+
+.single-service p{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.single-service h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ff0000;
+    border-radius: 50%;
+    margin: 5% auto;
+}
+
+.single-service span{
+    position: absolute;
+    top: 0;
+    left: -110%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    transition: .7s;
+    transform: skewX(10deg);
+}
+.single-service:hover span{
+    left: 100%;
+}
+
+.feedbacks .single-service1 li{
+    margin-left: 300px ;
+    margin-right: 300px;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+}
+.feedbacks .single-service1 h4{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+
+}
+.contact-conten{
+    background-color: aqua;
+}
